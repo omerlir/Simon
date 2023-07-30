@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  
+}
+
+h1{
+  padding-top: 50px;
+}
+
+.text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+
+.btn {
+  margin: 25px;
+  display: inline-flex;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: none;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  margin-bottom: 0;
+}
+
+.green {
+  background-color: green;
+  margin-top: 0;
+}
+
+.blue {
+  background-color: blue;
+  margin-bottom: 0;
+}
+
+.yellow {
+  background-color: yellow;
+  margin-bottom: 0;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  opacity: 50%;
+}
+
+footer {
+  color: white;
+}
