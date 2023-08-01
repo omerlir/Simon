@@ -129,7 +129,7 @@ switch (pcChose) {
 function user(event){
     //Listen for mouse clicks and run input
     if (event.type==="click"||event.type=== "touchstart") {
-        userChose= (event.target.id); // i think the problem might be here!! anyway, something's wrong with input(). throw it in the console and see. remember to save .js and refresh site before rechecking.
+        userChose= (event.target.id); 
         input();
     }
 
