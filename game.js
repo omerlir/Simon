@@ -92,28 +92,28 @@ function pressAnimation(color){ // global animation for a push of a button, weth
 }
 
 function pc(){
-pcChose = Math.floor(Math.random()*4+1)
-switch (pcChose) {
-    case 1:
-        pcChose= "green";
-        pcArray.push(pcChose);
-        break;
-
-    case 2:
-        pcChose= "blue";
-        pcArray.push(pcChose);
-        break;
-
-    case 3:
-        pcChose= "yellow";
-        pcArray.push(pcChose);
-        break;
-
-    case 4:
-        pcChose="red";
-        pcArray.push(pcChose);
-        break;
-}
+    pcChose = Math.floor(Math.random()*4+1)
+    switch (pcChose) {
+        case 1:
+            pcChose= "green";
+            pcArray.push(pcChose);
+            break;
+        
+        case 2:
+            pcChose= "blue";
+            pcArray.push(pcChose);
+            break;
+        
+        case 3:
+            pcChose= "yellow";
+            pcArray.push(pcChose);
+            break;
+        
+        case 4:
+            pcChose="red";
+            pcArray.push(pcChose);
+            break;
+    }
     for (let i = 0; i < pcArray.length; i++) { //animate the whole sequence
         setTimeout(function() {
           pressAnimation(pcArray[i]);
