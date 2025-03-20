@@ -1,2 +1,2 @@
 # Simon
- A simon says game
+ A Simon memory game, enjoy: https://omerlir.github.io/Simon/
